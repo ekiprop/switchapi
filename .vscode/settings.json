@@ -1,3 +1,12 @@
 {
-    "python.pythonPath": "env/bin/python3"
+  "python.pythonPath": "env/bin/python3",
+  "python.dataScience.allowInput": false,
+
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--errors-only"
+  ],
+  // "python.linting.pylintArgs": ["--errors-only"],
+
+  "[python]": {}
 }
