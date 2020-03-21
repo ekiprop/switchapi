@@ -1,1 +1,1 @@
-web: gunicorn switchapi.wsgi:application --log-file - --log-level debug
+web: gunicorn app.switchapi.wsgi:application --log-file - --log-level debug
