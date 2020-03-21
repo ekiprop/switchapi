@@ -1,1 +1,1 @@
-web: gunicorn switchapi.wsgi
+web: gunicorn switchapi.wsgi --log-file -

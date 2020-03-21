@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'switchapi',
         'USER': 'ekiprop',
         'PASSWORD': 'kiprop14',
-        'HOST': 'switchapi',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
