@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'switchapi',
         'USER': 'ekiprop',
         'PASSWORD': 'kiprop14',
-        'HOST': '127.0.0.1',
+        'HOST': 'switchapi',
         'PORT': '5432',
     }
 }
