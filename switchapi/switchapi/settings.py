@@ -77,14 +77,15 @@ WSGI_APPLICATION = 'switchapi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'switchapi',
+        'USER': 'ekiprop',
+        'PASSWORD': 'kiprop14',
         'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '',
+        'PORT': '5432',
     }
 }
 
